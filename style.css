@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+#container{
+    overflow: hidden;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*police de caractère*/
+
+@font-face {
+    font-family: 'northern_worssley_freeregular';
+    src: url('northern_worssley_free-webfont.woff2') format('woff2'),
+         url('northern_worssley_free-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Modifications des grandes parties du html*/
+
+
+body {
+  background-color: black;
+}
+
+header{
+    background-color: black;
+}
+
+
+
+#container section{
+width: 100%;
+ height: 700px;
+
+}
+
+
+/*Modifications du header*/
+ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    align-items: center;
+    
+}
+
+
+a.nav-link{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    background-color: rgb(255, 174, 0);
+}
+a.nav-link:hover{
+    color: rgb(5, 5, 5);
+}
+
+
+
+
+.input-holder > input{
+
+height: 70px;
+padding: 0 20px;
+border: 1px solid #000;
+border-radius: 4px;
+-webkit-border-radius: 4px;
+color: #000;
+font-size: 16px;
+overflow: hidden;
+width: 100%;
+max-width: 785px;
+margin: 0 auto;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+.input-holder > textarea{
+    width: 100%;
+height: 200px;
+padding-bottom: 20px;
+border: 1px solid #000;
+border-radius: 4px;
+-webkit-border-radius: 4px;
+color: #000;
+font-size: 16px;
+ overflow: auto;
+    }
+    
+.form-block p{
+    text-align: center;
+    margin: 0 0 50px;
+    line-height: 30px;
+}
+
+.form-block h3{
+    
+   text-align: center;
+    margin: 0 0 20px;
+    font-size: 32px;
+}
+
+
+.conclusion input[type="submit"] {
+    display: block;
+    width: 100%;
+    max-width: 176px;
+    height: 50px;
+    margin: 0 auto;
+    color: white;
+background-color: black;
+border: 1px solid #000;
+    border-radius: 5px solid #000;
+    font-size: 16px;
+    letter-spacing: 6px;
+    
+}
+
+.conclusion input[type="submit"]:hover{
+    background-color: rgb(255, 174, 0);
+    letter-spacing: 6px;
+}
+
+
+/*Modification Footer*/
+
+footer{
+    height: 700px;
+   background-color:rgb(255, 174, 0);
+   -webkit-box-shadow: -1px -4px 4px 3px rgba(0,0,0,0.62); 
+   box-shadow: -1px -4px 4px 3px rgba(0,0,0,0.62);
+
+}
+
+
